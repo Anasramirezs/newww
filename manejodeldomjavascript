@@ -1,0 +1,22 @@
+ Interacción con el DOM en JavaScript
+// Conceptos Clave:
+// - DOM (Document Object Model): Es la representación de la estructura de un documento HTML en forma de un árbol de objetos.
+// - Manipulación del DOM: Modificar el contenido, la estructura o el estilo de un documento HTML usando JavaScript.
+
+//  Métodos comunes para interactuar con el DOM:
+// - Selección de elementos: getElementById(), querySelector(), querySelectorAll().
+// - Modificación de contenido: innerText, innerHTML, textContent.
+// - Modificación de estructura: appendChild(), removeChild().
+
+//  Preguntas:
+// - ¿Qué métodos puedes usar para seleccionar elementos específicos en el DOM?
+// - ¿Cómo puedes modificar el contenido de un elemento en el DOM?
+
+//  Tarea Práctica:
+// Crea un botón que, al hacer clic, cambie el texto de un párrafo específico en el documento.
+
+// Ejemplo práctico:
+document.getElementById("miBoton").addEventListener("click", function() {
+    // Selecciona el párrafo y cambia su texto
+    document.getElementById("miParrafo").innerText = "¡Texto cambiado con éxito! ";
+});
