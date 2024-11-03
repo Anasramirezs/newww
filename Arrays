@@ -1,0 +1,55 @@
+// Arrays
+// Conceptos Clave:
+// - Array: Es una lista ordenada de elementos que pueden ser de cualquier tipo, definida con corchetes [].
+// - Acceso a elementos: Usa índices (comenzando desde 0) para acceder a los elementos.
+// Métodos útiles:
+// - push(): Agrega un elemento al final del array.
+// - pop(): Elimina el último elemento del array.
+
+// Preguntas:
+// 1. ¿Cómo se accede al primer elemento de un array?
+// 2. ¿Qué método se utiliza para agregar un elemento al final de un array?
+
+//  Tarea Práctica:
+// Crea un array con tus frutas favoritas, agrega una nueva fruta con push y luego imprime el array.
+
+let frutas = ["manzana", "banana", "sandia"];
+frutas.push("kiwi"); // Añade "kiwi" al final
+console.log(frutas); // Imprime el array actualizado
+
+//  Sets
+// Conceptos Clave:
+// - Set: Una colección de valores únicos, sin duplicados, creada con `new Set()`.
+// Métodos útiles:
+// - add(): Agrega un elemento al Set.
+// - has(): Verifica si un elemento está en el Set.
+
+//  Preguntas:
+// 1. ¿Cómo se crea un Set en JavaScript?
+// 2. ¿Qué método se usa para añadir un elemento a un Set?
+
+//  Tarea Práctica:
+// Crea un Set con algunos números, añade uno más y luego imprime el Set.
+
+let numeros = new Set([1, 2, 3, 4, 8]);
+numeros.add(5); // Añade el número 5
+console.log(numeros); // Imprime el Set actualizado
+
+//  Maps
+// Conceptos Clave:
+// - Map: Una colección de pares clave-valor, cada clave debe ser única. Se crea con `new Map()`.
+// Métodos útiles:
+// - set(clave, valor): Agrega una entrada con la clave y el valor especificados.
+// - get(clave): Obtiene el valor asociado a la clave dada.
+
+//  Preguntas:
+// 1. ¿Cómo se define un Map en JavaScript?
+// 2. ¿Cómo puedes obtener un valor en un Map usando su clave?
+
+//  Tarea Práctica:
+// Crea un Map con nombres e identificaciones, luego imprime el nombre de una persona usando su ID.
+
+let edades = new Map();
+edades.set(12345678, "Heidi");
+edades.set(7654321, "Stan");
+console.log(edades.get(12345678)); // Imprime el nombre asociado a la clave 12345678
