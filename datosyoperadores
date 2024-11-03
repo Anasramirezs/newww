@@ -1,0 +1,26 @@
+// Tipos de Datos y Operadores
+// Conceptos Clave:
+// Tipos de Datos en JavaScript:
+// - Números: Representan valores numéricos, como 42 o 3.14.
+// - Cadenas de texto (Strings): Secuencias de caracteres, como "Hola, mundo!".
+// - Booleanos: Representan verdadero o falso (true, false).
+// - Objetos: Colecciones de propiedades, definidas con llaves {}.
+// - Arrays: Listas ordenadas de valores, definidas con corchetes [].
+
+// Operadores:
+// - Aritméticos: +, -, *, /, %.
+// - Comparación: ==, ===, !=, !==, >, <, >=, <=.
+// - Lógicos: &&, ||, !.
+
+// Preguntas:
+// 1. ¿Qué tipo de dato usarías para almacenar un nombre?
+// 2. ¿Cuál es la diferencia entre == y ===?
+
+// Tarea Práctica:
+// Declara una variable para almacenar tu edad y una constante para tu nombre. 
+// Luego, imprime ambos valores en la consola.
+
+let miEdad = 25; // Declaración de una variable para la edad
+const miNombre = "Gabi"; // Declaración de una constante para el nombre
+
+console.log("Nombre:", miNombre, "- Edad:", miEdad); // Imprime el nombre y la edad en la consola
