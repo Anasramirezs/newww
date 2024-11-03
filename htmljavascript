@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Bienvenido a Mi Página</h1>
+    <p>Este es un párrafo de texto que describe el contenido de la página. Aquí puedes incluir información interesante o relevante.</p>
+
+    <a href="https://www.ejemplo.com">Visita nuestro sitio</a>
+
+    <h2>Lista de Conceptos Clave</h2>
+    <ul>
+        <li>HTML: Lenguaje de marcado para estructurar contenido.</li>
+        <li>CSS: Hojas de estilo para dar formato a la presentación.</li>
+        <li>JavaScript: Lenguaje de programación para interactividad.</li>
+    </ul>
+
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
