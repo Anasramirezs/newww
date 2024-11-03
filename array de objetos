@@ -1,0 +1,23 @@
+//  Array de Objetos 
+
+//  Conceptos Clave:
+// Array de Objetos: Es un array que contiene varios objetos, lo cual permite organizar datos de manera estructurada y fácil de manipular. 
+// Ejemplo: let estudiantes = [{ nombre: "Token", edad: 19 }, { nombre: "Butters", edad: 21 }];
+
+//  Preguntas:
+//  ¿Cómo puedes acceder a un objeto dentro de un array?
+//  ¿Qué ventajas ofrece usar un array de objetos en lugar de múltiples variables independientes?
+
+// Tarea Práctica:
+// Crea un array de objetos que represente estudiantes, cada uno con propiedades como nombre y edad.
+
+let estudiantes = [
+    { nombre: "Eric Cartman", edad: 19 },  //  Primer estudiante
+    { nombre: "Stan Marsh", edad: 19 },    //  Segundo estudiante
+    { nombre: "Kyle Broflovski", edad: 20 } //  Tercer estudiante
+];
+
+// Acceder a los datos:
+console.log(estudiantes[0].nombre); // Imprime el nombre del primer estudiante
+console.log(estudiantes[1].edad);   // Imprime la edad del segundo estudiante
+console.log(estudiantes[2]);        // Imprime todo el objeto del tercer estudiante
