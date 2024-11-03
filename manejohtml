@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulación del DOM</title>
+</head>
+<body>
+  <!-- Botón que llama a la función para cambiar el texto del párrafo -->
+  <button id="botonCambiarTexto">Haz clic aquí</button>
+
+  <!-- Párrafo cuyo texto será cambiado -->
+  <p id="miParrafo">Texto original</p>
+
+  <script>
+    // Selección de elementos y adición de un event listener en lugar de usar "onclick" en el HTML
+    document.getElementById("botonCambiarTexto").addEventListener("click", function() {
+      document.getElementById("miParrafo").innerText = "Texto cambiado";
+    });
+  </script>
+</body>
+</html>
