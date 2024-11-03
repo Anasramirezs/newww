@@ -1,0 +1,25 @@
+//  Estructuras de Decisión
+// Conceptos Clave:
+// if: Ejecuta un bloque de código si una condición es verdadera.
+// else: Ejecuta un bloque de código si la condición es falsa.
+// else if: Permite verificar múltiples condiciones.
+
+// Sintaxis Básica:
+// if (condición) {  // Código si la condición es verdadera }
+// else {  // Código si la condición es falsa }
+
+// Preguntas:
+// ¿Cómo se estructura una declaración if-else?
+// ¿Qué sucede si ninguna condición es verdadera?
+
+//  Tarea Práctica:
+// Escribe un código que verifique si una persona es mayor de edad (18 años o más)
+// y muestra un mensaje correspondiente.
+
+let edad = 50; // Inicialización de la variable 'edad'
+
+if (edad >= 18) { 
+  console.log(" Eres mayor de edad."); // Mensaje si es mayor o igual a 18
+} else {
+  console.log(" Eres menor de edad."); // Mensaje si es menor de 18
+}
