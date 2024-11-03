@@ -1,0 +1,22 @@
+//  Objetos en JavaScript
+//  Conceptos Clave:
+// - Objeto: Conjunto de propiedades y métodos, definido con {}.
+// - Propiedades: Pares clave-valor que describen el objeto.
+// - Métodos: Funciones asociadas a un objeto.
+
+//  Preguntas:
+// - ¿Cómo se define una propiedad dentro de un objeto?
+// - ¿Cómo acceder a una propiedad de un objeto?
+
+//  Tarea Práctica:
+// Crea un objeto para representar un libro, con propiedades como título, autor y año.
+
+const libro = {  //  Creación de un objeto libro
+    titulo: "El viejo y la gaviota",  //  Propiedad: título
+    autor: "Arle",  //  Propiedad: autor
+    añoPublicacion: 1999  //  Propiedad: año de publicación
+};
+
+console.log(`Título: ${libro.titulo}`); //  Imprime el título del libro
+console.log(`Autor: ${libro.autor}`);  //  Imprime el autor del libro
+console.log(`Año de publicación: ${libro.añoPublicacion}`);  //  Imprime el año de publicación del libro
